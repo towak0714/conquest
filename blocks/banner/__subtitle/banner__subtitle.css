@@ -1,0 +1,16 @@
+.banner__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(27, 26, 23, 0.82);
+    margin: 39px 0 64px;
+    max-width: 258px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 959.98px) {
+    .banner__subtitle {
+        text-align: center;
+        margin: 39px auto 64px;
+    }
+}

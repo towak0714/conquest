@@ -1,0 +1,10 @@
+.social-network__links {
+    display: flex;
+    margin-top: 118px;
+}
+
+@media screen and (max-width: 959.98px) {
+    .social-network__links {
+        margin: 40px auto;
+    }
+}

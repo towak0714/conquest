@@ -1,0 +1,19 @@
+@import url(../banner/__wrapper/banner__wrapper.css);
+@import url(../banner/__title/banner__title.css);
+@import url(../banner/__text/banner__text.css);
+@import url(../banner/__subtitle/banner__subtitle.css);
+@import url(../banner/__pointer/_bottom/banner__pointer_bottom.css);
+@import url(../banner/__pointer/_top/banner__pointer_top.css);
+@import url(../banner/__info/banner__info.css);
+@import url(../banner/__image/banner__image.css);
+
+.banner {
+    background: url(../../images/),url(../../images/ellip-banner.png) no-repeat 54% 9%;
+}
+
+@media screen and (max-width: 959.98px) {
+    .banner {
+        padding: 50px 0;
+        background: linear-gradient(158deg, rgba(234, 227, 212, 0) 47%, #EAE3D4 9%);
+    }
+}

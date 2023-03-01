@@ -1,0 +1,9 @@
+.catalog__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444240;
+    margin: 38px 0 45px;
+    max-width: 376px;
+    font-family: 'Roboto', sans-serif;
+}

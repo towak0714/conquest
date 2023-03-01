@@ -1,0 +1,10 @@
+.banner__info {
+    align-self: center;
+}
+
+@media screen and (max-width: 959.98px) {
+    .banner__info {
+        margin: auto;
+        text-align: center;
+    }
+}

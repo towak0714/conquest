@@ -1,0 +1,7 @@
+.card__image {
+    z-index: 3;
+    border-radius: 50%;
+    position: relative;
+    max-width: 313px;
+    width: 100%;
+}

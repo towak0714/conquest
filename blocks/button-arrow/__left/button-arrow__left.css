@@ -1,0 +1,15 @@
+.button-arrow__left {
+    background-image: url(../../../images/arrowLeft.svg);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 12px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-position: center;
+    transition: .2s ease;
+}
+
+.button-arrow__left:hover{
+    transform: scale(1.3);
+}

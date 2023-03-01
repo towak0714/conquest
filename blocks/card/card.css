@@ -1,0 +1,28 @@
+@import url(../card/__animation/card__animation.css);
+@import url(../card/__image/card__image.css);
+@import url(../card/__link/card__link.css);
+@import url(../card/__price/card__price.css);
+@import url(../card/__title/card__title.css);
+@import url(../card/__wrapper/card__wrapper.css);
+
+.card {
+    margin-right: 34px;
+    max-width: 370px;
+}
+
+.card:last-child {
+ margin-right: 0;
+}
+
+@media screen and (max-width: 1098.98px) {
+    .card {
+        margin-right: 15px;
+    }
+}
+
+
+@media screen and (max-width: 959.98px) {
+    .card {
+        margin: 0;
+    }
+}

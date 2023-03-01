@@ -1,0 +1,9 @@
+.footer__column-email {
+    font-weight: 400;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}

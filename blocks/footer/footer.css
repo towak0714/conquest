@@ -1,0 +1,14 @@
+@import url(../footer/__column-email/footer__column-email.css);
+@import url(../footer/__column-heading/footer__column-heading.css);
+@import url(../footer/__column-link/footer__column-link.css);
+@import url(../footer/__column-links/footer__column-links.css);
+@import url(../footer/__column-number/footer__column-number.css);
+@import url(../footer/__column/footer__column.css);
+@import url(../footer/__columns//footer__columns.css);
+@import url(../footer/__info/footer__info.css);
+@import url(../footer/__logo/footer__logo.css);
+
+.footer {
+    background-color: #444240;
+    margin-top: 90px;
+}

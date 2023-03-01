@@ -1,0 +1,17 @@
+.photo_size_s {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 242px;
+    min-width: 110px;
+    max-height: 228px;
+}
+
+@media screen and (max-width: 598.98px) {
+    .photo_size_s {
+        margin: 0 10px 0 0;
+    }
+}
+
+.photo_size_s:last-child {
+    margin: 0;
+}

@@ -1,0 +1,12 @@
+.card__price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+    margin: 10px 12px 0;
+    font-family: 'Prata', serif;
+}
+
+.card__price span {
+    font-size: 14px;
+}

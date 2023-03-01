@@ -1,0 +1,13 @@
+.banner__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1B1A17;
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 959.98px) {
+    .banner__text {
+        text-align: center;
+    }
+}

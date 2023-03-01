@@ -1,0 +1,13 @@
+.banner__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    max-width: 1281px;
+    margin: auto;
+}
+
+@media screen and (max-width: 959.98px) {
+    .banner__wrapper {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,17 @@
+.social-network__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #444240;
+    max-width: 376px;
+    margin: 40px 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 959.98px) {
+    .social-network__subtitle {
+        margin: 40px auto;
+        text-align: center;
+        max-width: 100%;
+    }
+}

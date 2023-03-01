@@ -1,0 +1,15 @@
+.banner__image {
+    height: 738px;
+    background: url(../../../images/rado-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 502px;
+    height: 804px;
+    position: relative;
+}
+
+@media screen and (max-width: 959.98px) {
+    .banner__image {
+        display: none;
+    }
+}

@@ -1,0 +1,37 @@
+@import url(../vedor/normalize.css);
+
+@import url(../blocks/rotation/rotation.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/banner/banner.css);
+
+@import url(../blocks/product/product.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/card/card.css);
+
+@import url(../blocks/catalog/catalog.css);
+
+@import url(../blocks/slide/slide.css);
+
+@import url(../blocks/social-network/social-network.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/button-arrow/__left/button-arrow__left.css);
+@import url(../blocks/button-arrow/__right/button-arrow__right.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/logo/__cart/logo__cart.css);
+@import url(../blocks/logo/__facebook/logo__facebook.css);
+@import url(../blocks/logo/__instagram/logo__instagram.css);
+@import url(../blocks/logo/__like/logo__like.css);
+@import url(../blocks/logo/__search/logo__search.css);
+@import url(../blocks/logo/__twitter/logo__twitter.css);
+
+@import url(../blocks/photo/photo.css);

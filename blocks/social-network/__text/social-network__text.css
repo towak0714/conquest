@@ -1,0 +1,10 @@
+.social-network__text {
+    margin-top: 140px;
+}
+
+
+@media screen and (max-width: 959.98px) {
+    .social-network__text {
+        margin: 80px auto 0;
+    }
+}

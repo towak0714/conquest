@@ -1,0 +1,31 @@
+.product__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444240;
+    text-decoration: none;
+    align-self: flex-end;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product__link::after {
+    background-color: #C4C0B6;;
+    display: block;
+    content: "";
+    height: 1px;
+    margin-top: 10px;
+    width: 0%;
+    transition: width .3s ease-in-out;
+}
+
+.product__link:hover::after {
+    width: 100%;
+} 
+
+@media screen and (max-width: 959.98px) {
+    .product__link {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

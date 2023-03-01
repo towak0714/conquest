@@ -1,0 +1,10 @@
+.header__links {
+    display: flex;
+    align-self: center;
+}
+
+@media screen and (max-width: 699.98px) {
+    .header__links {
+        margin-top: 15px;
+    }
+}

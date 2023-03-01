@@ -1,0 +1,13 @@
+@import url(../slide/__number/slide__number.css);
+@import url(../slide/__wrapper/slide__wrapper.css);
+
+.slide {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 837.98px) {
+    .slide {
+        margin: auto;
+    }
+} 

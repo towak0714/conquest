@@ -1,0 +1,18 @@
+.catalog__wrapper {
+    display: flex;
+    margin: 0 auto 0px 177px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 1140.98px) {
+    .catalog__wrapper {
+        margin: 0 auto 20px;
+        justify-content: center;
+    }
+} 
+
+@media screen and (max-width: 837.98px) {
+    .catalog__wrapper {
+        flex-direction: column;
+    }
+} 

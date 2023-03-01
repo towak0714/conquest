@@ -1,0 +1,21 @@
+@import url(../social-network/__wrapper/social-network__wrapper.css);
+@import url(../social-network/__title/social-network__title.css);
+@import url(../social-network/__text/social-network__text.css);
+@import url(../social-network/__subtitle/social-network__subtitle.css);
+@import url(../social-network/__subtitle-link/social-network__subtitle-link.css);
+@import url(../social-network/__links/social-network__links.css);
+@import url(../social-network/__link/social-network__link.css);
+
+.social-network {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1178px;
+    margin: 81px auto 0;
+}
+
+@media screen and (max-width: 959.98px) {
+    .social-network {
+        flex-direction: column;
+    }
+}

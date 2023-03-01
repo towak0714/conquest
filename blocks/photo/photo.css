@@ -1,0 +1,20 @@
+@import url(../photo/photo.css);
+@import url(../photo/__wrapper/photo__wrapper.css);
+@import url(../photo/_size/_m/photo_size_m.css);
+@import url(../photo/_size/_s/photo_size_s.css);
+
+.photo {
+    display: flex;
+}
+
+@media screen and (max-width: 959.98px) {
+    .photo {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 598.98px) {
+    .photo {
+        flex-wrap: wrap;
+    }
+}

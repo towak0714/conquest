@@ -1,0 +1,15 @@
+@import url(../button/_color/_black/button_color_black.css);
+@import url(../button/_color/_cream/button_color_cream.css);
+
+.button {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 26px 38px 27px;
+    cursor: pointer;
+    max-height: 64px;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,24 @@
+.logo__like {
+    background-image: url(../../../images/like.svg);
+    position: relative;
+}
+
+.logo__like::after {
+    content: '1';
+    background-image: url(../../../images/ellipse-like.svg);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+    color: #1B1A17;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    display: block;
+    background-position: center;
+    padding: 2px 1px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 8px;
+    left: 13px;
+}

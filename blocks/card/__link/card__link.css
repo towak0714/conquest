@@ -1,0 +1,28 @@
+.card__link {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+    position: relative;
+    margin-left: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card__link::after{
+    background-color: #8B8371;
+    display: block;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 0px;
+    left: -48px;
+    bottom: 50%;
+    top: 50%;
+    transition: width .3s ease-in-out;
+}
+
+.card__link:hover::after {
+    width: 30px;
+}

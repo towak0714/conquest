@@ -1,0 +1,11 @@
+.photo_size_m {
+    width: 100%;
+    max-width: 377px;
+    max-height: 460px;
+}
+
+@media screen and (max-width: 598.98px) {
+    .photo_size_m {
+        margin: auto;
+    }
+}

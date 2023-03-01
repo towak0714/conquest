@@ -1,0 +1,16 @@
+.footer__column-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 0 33px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 998.98px) {
+    .footer__column-heading{
+        margin: 0 0 20px;
+    }
+}

@@ -1,0 +1,9 @@
+.card__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+    margin: 0 12px 0;
+    font-family: 'Playfair Display', serif;
+}

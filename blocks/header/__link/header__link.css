@@ -1,0 +1,21 @@
+.header__link {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin-right: 18px;
+    width: 19px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 23px;
+    transition: .2s ease;
+}
+
+.header__link:hover {
+    transform: scale(1.3);
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,17 @@
+.catalog__info {
+    margin-left: 70px;
+    align-self: center;
+}
+
+@media screen and (max-width: 1149.98px) {
+    .catalog__info {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 798.98px) {
+    .catalog__info {
+        margin: 20px auto 0;
+        text-align: center;
+    }
+} 

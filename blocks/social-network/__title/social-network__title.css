@@ -1,0 +1,14 @@
+.social-network__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 959.98px) {
+    .social-network__title {
+        text-align: center;
+    }
+}

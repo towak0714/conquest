@@ -1,0 +1,12 @@
+.photo__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 598.98px) {
+    .photo__wrapper {
+        margin: 0 auto 10px;
+        flex-direction: row;
+    }
+}

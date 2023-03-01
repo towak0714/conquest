@@ -1,0 +1,31 @@
+.banner__pointer_bottom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1B1A17;
+    position: absolute;
+    bottom: 17%;
+    right: -17%;
+    margin: 0;
+    display: block;
+    font-family: 'Prata', serif;
+}
+
+.banner__pointer_bottom::after {
+    content: '';
+    background-color: #8B8371;
+    display: block;
+    content: "";
+    height: 1px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: -65px;
+}
+
+@media screen and (max-width: 1119.98px) {
+    .banner__pointer_bottom {
+        display: none;
+    }
+}

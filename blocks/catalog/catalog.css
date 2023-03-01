@@ -1,0 +1,17 @@
+@import url(../catalog/__image/catalog__image.css);
+@import url(../catalog/__info/catalog__info.css);
+@import url(../catalog/__subtitle/catalog__subtitle.css);
+@import url(../catalog/__title/catalog__title.css);
+@import url(../catalog/__wrapper/catalog__wrapper.css);
+
+.catalog {
+    background: url(../../images/lineas-catalog.png) right no-repeat, linear-gradient(to right, #F7F5EF 34.2%, #FDFDFB 0%);
+    padding: 53px 0 21px;
+    margin-top: 86px;
+}
+
+@media screen and (max-width: 798.98px) {
+    .catalog {
+        background: linear-gradient(to right, #F7F5EF 34.2%, #FDFDFB 0%);
+    }
+} 

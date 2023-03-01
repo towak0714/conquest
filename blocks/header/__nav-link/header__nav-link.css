@@ -1,0 +1,13 @@
+.header__nav-link {
+    text-decoration: none;
+    color: #555248;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__nav-link:hover {
+    color: #D4B098;
+}

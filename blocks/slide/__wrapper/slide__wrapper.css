@@ -1,0 +1,11 @@
+.slide__wrapper {
+    text-align: end;
+    margin: 20px 83px 0 0;
+}
+
+@media screen and (max-width: 837.98px) {
+    .slide__wrapper {
+        text-align: center;
+        margin: 20px 0;
+    }
+} 

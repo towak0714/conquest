@@ -1,0 +1,12 @@
+.social-network__subtitle-link {
+    text-decoration: none;
+    color: #262421;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-network__subtitle-link:hover {
+    color: #D4B098;
+}

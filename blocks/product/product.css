@@ -1,0 +1,11 @@
+@import url(../product/__link/product__link.css);
+@import url(../product/__title/product__title.css);
+
+.product {
+    margin: auto;
+    padding: 0 20px;
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1178px;
+}

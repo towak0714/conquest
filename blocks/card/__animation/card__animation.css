@@ -1,0 +1,17 @@
+.card__animation {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+.card__animation::after {
+    content: '';
+    box-shadow: 1px 1px 1px 1px rgb(92 92 80 / 23%);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    animation: rotation 5s linear  infinite;
+}
